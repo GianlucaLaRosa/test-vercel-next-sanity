@@ -42,10 +42,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-<header><h1>TEST</h1></header>
-      <body>
-        {children}
-      </body>
+      <header>
+        <h1>TEST</h1>
+      </header>
+      <body>{children}</body>
     </html>
   );
 }

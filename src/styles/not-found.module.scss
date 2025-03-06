@@ -5,11 +5,9 @@
   display: flex;
   flex-direction: row;
 
-
   @media screen and (min-width: variables.$bp-medium) {
     height: 60vh;
   }
-
 
   &__main {
     flex: 1 1 50%;
@@ -28,7 +26,6 @@
     @media screen and (min-width: variables.$bp-large) {
       flex-direction: row;
     }
-
 
     &__logo {
       height: 100px;
@@ -64,7 +61,6 @@
         }
       }
     }
-
   }
 
   &__aside {
@@ -80,6 +76,5 @@
     @media screen and (min-width: variables.$bp-big) {
       display: block;
     }
-
   }
 }

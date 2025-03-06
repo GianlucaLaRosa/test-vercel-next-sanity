@@ -16,8 +16,7 @@ export default function NotFound() {
               </Link>
             </div>
           </div>
-          <aside className={styles.notfound__aside}>
-          </aside>
+          <aside className={styles.notfound__aside}></aside>
         </main>
       </body>
     </html>

@@ -7,7 +7,11 @@ export default async function Home() {
     <main>
       PIPPO
       {logo && <img src={logo.logoUrl} />}
-      {logo && <a href={logo.link}><p>{logo.label}</p></a>}
+      {logo && (
+        <a href={logo.link}>
+          <p>{logo.label}</p>
+        </a>
+      )}
     </main>
   );
 }

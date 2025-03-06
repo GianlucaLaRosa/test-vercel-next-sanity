@@ -2,7 +2,6 @@ This is the Fortitude group website, built with [Next.js](https://nextjs.org) v1
 
 This project uses Sanity, TypeScript, App Router.
 
-
 ## Getting Started
 
 First, install all dependencies:
@@ -12,7 +11,6 @@ pnpm i
 ```
 
 Set env variables according to `.env.example`.
-
 
 Then, run the development server:
 

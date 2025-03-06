@@ -1,6 +1,5 @@
 @use "../styles/_reset";
 
-
 h1,
 h2,
 h3,
@@ -10,11 +9,10 @@ h6 {
   font-family: Raleway, sans-serif;
 }
 
-
-p, span {
+p,
+span {
   font-family: Lato, sans-serif;
 }
-
 
 .cols {
   display: flex;

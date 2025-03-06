@@ -1,5 +1,4 @@
 .section__text {
-
   & li {
     list-style-type: square;
 
@@ -13,7 +12,8 @@
     width: 100%;
   }
 
-  &.right{}
+  &.right {
+  }
 
   @media screen and (min-width: variables.$bp-large) {
     display: flex;
