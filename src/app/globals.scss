@@ -1,0 +1,28 @@
+@use "../styles/_reset";
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Raleway, sans-serif;
+}
+
+
+p, span {
+  font-family: Lato, sans-serif;
+}
+
+
+.cols {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  @media screen and (min-width: variables.$bp-large) {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
