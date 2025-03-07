@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "buildd": "prettier --check . && next build",
+    "build": "prettier --check . && next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write .",
-    "build": "sanity build -output public"
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@portabletext/react": "^3.2.1",
