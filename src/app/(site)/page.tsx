@@ -12,6 +12,7 @@ export default async function Home() {
           <p>{logo.label}</p>
         </a>
       )}
+      <p>TEST TEST TEST DI CAZZ</p>
     </main>
   );
 }

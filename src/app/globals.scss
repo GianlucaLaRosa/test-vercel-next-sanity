@@ -1,5 +1,13 @@
 @use "../styles/_reset";
 
+:root {
+  --green: #2d827b;
+  --green-light: #51b9a3;
+  --dark-gray: rgb(3, 3, 3);
+  --copy-color: #404040;
+}
+
+
 h1,
 h2,
 h3,
@@ -11,6 +19,7 @@ h6 {
 
 p,
 span {
+  color: var(--green);
   font-family: Lato, sans-serif;
 }
 
