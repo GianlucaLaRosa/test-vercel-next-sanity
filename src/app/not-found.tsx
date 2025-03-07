@@ -3,8 +3,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <html>
-      <body>
+
         <main className={styles.notfound}>
           <div className={styles.notfound__main}>
             <div className={styles.notfound__main__message}>
@@ -18,7 +17,6 @@ export default function NotFound() {
           </div>
           <aside className={styles.notfound__aside}></aside>
         </main>
-      </body>
-    </html>
+
   );
 }
