@@ -1,14 +1,8 @@
 import { getLogo } from "../../../sanity/utils/content-utils";
 
-export async function getServerSideProps() {
+
+export default async function Home() {
   const logo = await getLogo();
-  return { props: { logo } };
-}
-
-
-
-export default async function Home({logo}) {
-
   return (
     <main>
       PIPPO

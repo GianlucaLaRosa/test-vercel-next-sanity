@@ -11,7 +11,7 @@ const visionToolConfig = {
   defaultApiVersion: apiVersion,
   defaultDataset: dataset,
   token: process.env.NEXT_PUBLIC_SANITY_TOKEN,
-  useCdn: !isDev,
+  useCdn: false,
 };
 
 const plugins = isDev

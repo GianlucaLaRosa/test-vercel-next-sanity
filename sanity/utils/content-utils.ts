@@ -9,5 +9,5 @@ const getLogoQuery = groq`*[_type == "logo"][0]{
     }`;
 
 export async function getLogo(): Promise<Logo> {
-  return createClient(clientConfig).fetch(getLogoQuery);
+  return createClient(clientConfig).fetch(getLogoQuery, {}, { cache: "no-store" });
 }
